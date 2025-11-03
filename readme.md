@@ -1,11 +1,4 @@
 <!-- Profile Header -->
-<h1 align="center" style="margin-bottom: 0;">
-  Hi everyone 👋
-  <br/>
-  <span style="font-size: 0.6em; font-weight: 500; color: #6e7681;">Building delightful, scalable, AI‑powered experiences</span>
-</h1>
-<h3 align="center">🚀 Full‑Stack & AI Engineer · Cloud‑Native · DX‑focused</h3>
-
 <!-- Visuals -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Hi%20everyone%20👋&fontAlign=50&color=0:4F46E5,100:22D3EE&fontColor=ffffff&desc=AI%E2%80%91Powered%20Full%E2%80%91Stack%20Engineer&descAlign=50&descAlignY=70" />
@@ -16,6 +9,7 @@
 
 ## 📚 Table of Contents
 - [About Me](#-about-me)
+- [Highlights](#-highlights)
 - [Skill Set](#-skill-set)
   - [Languages & Runtime](#-languages--runtime)
   - [Frontend](#-frontend)
@@ -25,15 +19,25 @@
   - [Testing & Quality](#-testing--quality)
   - [Artificial Intelligence & Machine Learning](#-artificial-intelligence--machine-learning)
   - [Mobile & Multiplatform](#-mobile--multiplatform)
-- [Modern Full‑Stack Frameworks & Stacks (2024–2025)](#-modern-fullstack-frameworks--stacks-20242025)
+- [Modern Full‑Stack Frameworks & Stacks](#-modern-full-stack-frameworks--stacks)
 - [Featured Tech Stack Playbooks](#-featured-tech-stack-playbooks)
-- [Architecture Overview](#️-architecture-overview)
+- [Architecture Overview](#-architecture-overview)
 
 ## 👨‍💻 About Me
 🔭 I design and ship production‑ready web platforms with modern DX, performance, and accessibility at the core.
 🤖 I specialize in integrating LLMs, RAG, and automation into real products—safely and observably.
 🧩 I bridge frontend, backend, data, and DevOps to deliver cohesive, measurable outcomes.
 🤝 Open to AI‑powered SaaS, platform engineering, and OSS collaboration.
+
+---
+
+## ✨ Highlights
+
+- 🚀 End‑to‑end delivery: from idea to production with measurable outcomes
+- 🧠 AI‑augmented apps: LLMs, RAG, prompt telemetry, safety guardrails
+- ⚡ Performance‑first: edge rendering, caching strategy, profiling & budgets
+- 🔒 Secure by default: authN/Z, secrets, threat‑modeling, least‑privilege IaC
+- 🔁 DevEx & speed: monorepos, codegen, CI/CD previews, trunk‑based flow
 
 ---
 
@@ -137,7 +141,7 @@
 
 ---
 
-## ⚡ Modern Full‑Stack Frameworks & Stacks (2024–2025)
+## ⚡ Modern Full‑Stack Frameworks & Stacks
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Remix-000000?style=for-the-badge&logo=remix&logoColor=white" />
@@ -209,17 +213,23 @@
 
 ```mermaid
 graph LR
-  A[Client Apps<br/>Web · Mobile] --> B[Edge Layer<br/>CDN · WAF · Functions]
-  B --> C[Web Server<br/>Next.js / Remix]
-  B --> D[API Layer<br/>NestJS / FastAPI]
+  A["Client Apps\nWeb · Mobile"] --> B["Edge Layer\nCDN · WAF · Functions"]
+  B --> C["Web Server\nNext.js · Remix"]
+  B --> D["API Layer\nNestJS · FastAPI"]
   C --> D
-  D --> E[Workers & Queues<br/>BullMQ / Temporal]
-  D --> F[(Databases)<br/>Postgres · MongoDB]
-  D --> G[(Caches)<br/>Redis]
-  D --> H[(Vector Store)<br/>Pinecone / FAISS]
-  D --> I[(Search)<br/>Elasticsearch]
-  D --> J[Object Storage<br/>S3 / R2]
-  D --> K[Observability<br/>OpenTelemetry → Sentry/Datadog]
+  D --> E["Workers & Queues\nBullMQ · Temporal"]
+  D --> F["Databases\nPostgres · MongoDB"]
+  D --> G["Caches\nRedis"]
+  D --> H["Vector Store\nPinecone · FAISS"]
+  D --> I["Search\nElasticsearch"]
+  D --> J["Object Storage\nS3 · R2"]
+  D --> K["Observability\nOpenTelemetry → Sentry/Datadog"]
 ```
+
+---
+
+## 🤝 Get in Touch
+
+If you’re building something interesting (SaaS, AI features, platforms), I’d love to collaborate. Reach out via GitHub.
 
 ---
